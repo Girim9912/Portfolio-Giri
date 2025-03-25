@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giri Merugu | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 40px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        section {
+            margin: 40px auto;
+            padding: 30px;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+        }
+        h2 {
+            color: #ffcc00;
+        }
+        .project, .experience, .publication, .education, .documents {
+            margin: 15px 0;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            transition: transform 0.3s;
+        }
+        .project:hover, .experience:hover, .publication:hover, .education:hover, .documents:hover {
+            transform: scale(1.05);
+        }
+        a {
+            text-decoration: none;
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Giri Merugu</h1>
+        <p>Data Scientist | Data Engineer | Full-Stack Developer</p>
+        <img src="profile.jpg" alt="Giri Merugu" class="profile-img">
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Master's in Data Science | University of New Haven | Eligible to work in the U.S. without sponsorship</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>Master of Science in Data Science</h3>
+            <p>University of New Haven, USA | Aug 2023 - Dec 2024</p>
+        </div>
+        <div class="education">
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p>Jawaharlal Nehru Technological University, India | Apr 2018 - Aug 2021</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="experience">
+            <h3>Data Analyst - Tata Consultancy Services</h3>
+            <p>Engineered ETL pipelines with PySpark to manage 1TB+ of daily data, improving processing efficiency by 35%.</p>
+            <p>Built scalable real-time data processing frameworks using Apache Kafka and Spark Streaming.</p>
+            <p>Developed dynamic dashboards with Tableau and Power BI for business insights.</p>
+        </div>
+        <div class="experience">
+            <h3>Full-Stack Developer - J-Spiders Pvt. Ltd.</h3>
+            <p>Developed and deployed Java-based web applications using the Spring framework.</p>
+            <p>Managed relational databases using SQL on Oracle.</p>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>Publications & Research</h2>
+        <div class="publication">
+            <h3>Object Detection Models Research</h3>
+            <p>Published a research paper on optimizing YOLO-based object detection models for enhanced accuracy.</p>
+        </div>
+        <div class="publication">
+            <h3>NER Models for Information Extraction</h3>
+            <p>Developed Named Entity Recognition models achieving 87% accuracy for extracting structured data.</p>
+        </div>
+    </section>
+
+    <section id="documents">
+        <h2>My Documents</h2>
+        <p><a href="documents/transcripts.pdf" target="_blank">View Transcripts</a></p>
+        <p><a href="documents/degrees.pdf" target="_blank">View Degree Certificates</a></p>
+        <p><a href="documents/research_papers.pdf" target="_blank">View Research Papers</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:gmeru2@unh.newhaven.edu">gmeru2@unh.newhaven.edu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/giri-merugu-371b85141/" target="_blank">linkedin.com/in/giri-merugu</a></p>
+        <p>GitHub: <a href="https://github.com/Girim9912" target="_blank">github.com/Girim9912</a></p>
+        <p>Vercel: <a href="https://my-portfolio.vercel.app/" target="_blank">my-portfolio.vercel.app</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
